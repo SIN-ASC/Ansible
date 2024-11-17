@@ -1,14 +1,14 @@
 # Ansible
 ## Installation of Ansible
-`sudo dnf update -y `
-`sudo dnf install epel-release -y`
-`sudo dnf install ansible -y`
-`ansible --version`
+- `sudo dnf update -y `
+- `sudo dnf install epel-release -y`
+- `sudo dnf install ansible -y`
+- `ansible --version`
 
 ## Connection between Server(VM1) and Client(VM2)
 The Below commands to be executed in Server(VM1)
 - Here with command it will generate a public key
-`ssh-keygen -t rsa -b 2048`
+<br>`ssh-keygen -t rsa -b 2048`
 - To view the content the public key
 `cat ~/.ssh/id_rsa.pub`
 - To copy the public key to authorized keys
@@ -41,6 +41,6 @@ Pinging to the different VM(Server[VM1] -> Client[VM2])
 `ansible vm02-client -m ping`
 `ansible 10.0.0.5 -m ping`
 
-Pinging to the same VM(Server[VM1] -> Server[VM1])
-`ansible vm01-main -m ping`
+Pinging to the same VM(Server[VM1] -> Server[VM1])<br>
+`ansible vm01-main -m ping`<br>
 `ansible 10.0.0.4 -m ping`
