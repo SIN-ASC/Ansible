@@ -9,26 +9,35 @@
 <b>The Below commands to be executed in Server(VM1)</b>
 - Here with command it will generate a public key<br>
 `ssh-keygen -t rsa -b 2048`
+
 - To view the content the public key<br>
 `cat ~/.ssh/id_rsa.pub`
+
 - To copy the public key to authorized keys<br>
 `cat .ssh/id_rsa.pub > .ssh/authorized_keys`
+
 - To view the content of authorized keys<br>
 `cat ~/.ssh/authorized_keys`
+
 - To view the content of private key<br>
 `cat ~/.ssh/id_rsa`
+
 - To see the ip address<br>
 `ip a`
+
 - Here with the help of this command you can add ip addresses of VM1 & VM2 to the inventory file(hosts)<br>
 `sudo vi /etc/ansible/hosts`
 
 <b>The below commands to be executed in Client(VM2)</b>
 - To see the ip of Client(VM2) which will be added to the inventory file<br>
 `ip a`
+
 - To view the authorized keys of Client (if the client vm is created through ssh key then in the authorized_keys there will be already a key generated from azure or if it is created from username and password then the authorized_keys will be blank)<br>
 `cat ~/.ssh/authorized_keys`
+
 - If there is already a key generated from azure then don't delete it, add the public key of server(VM1) next to it<br>
 `vi ~/.ssh/authorized_keys`
+
 - Then see the authorized_keys again using cat command<br>
 `cat ~/.ssh/authorized_keys`
 
