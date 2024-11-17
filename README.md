@@ -28,6 +28,9 @@
 - Here with the help of this command you can add ip addresses of VM1 & VM2 to the inventory file(hosts)<br>
 `sudo vi /etc/ansible/hosts`
 
+- <b>Inventory File</b>
+<img src = "Screenshot 2024-11-17 170421.png">
+
 <b>The below commands to be executed in Client(VM2)</b>
 - To see the ip of Client(VM2) which will be added to the inventory file<br>
 `ip a`
