@@ -29,7 +29,7 @@
 `sudo vi /etc/ansible/hosts`
 
 - <b>Inventory File</b>
-<img src = "Screenshot 2024-11-17 170421.png" width="500" height="300">
+<img src = "Screenshot 2024-11-17 170421.png" width="400" height="200">
 
 <b>The below commands to be executed in Client(VM2)</b>
 - To see the ip of Client(VM2) which will be added to the inventory file<br>
