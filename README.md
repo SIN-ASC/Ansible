@@ -18,6 +18,7 @@
 
 - To view the content of authorized keys<br>
 `cat ~/.ssh/authorized_keys`
+<img src = "Screenshot 2024-11-17 183925.png" width="700" height="300">
 
 - To view the content of private key<br>
 `cat ~/.ssh/id_rsa`
@@ -43,6 +44,7 @@
 
 - Then see the authorized_keys again using cat command<br>
 `cat ~/.ssh/authorized_keys`
+<img src = "Screenshot 2024-11-17 181722.png" width="700" height="300">
 
 ## Ping
 <b>Ping is being done to see if the connection between 2 machines is being successfully established or not.</b>
