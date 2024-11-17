@@ -52,7 +52,9 @@
 - Pinging to the different VM(Server[VM1] -> Client[VM2])<br>
 `ansible vm02-client -m ping`<br>
 `ansible 10.0.0.5 -m ping`
+<img src = "Screenshot 2024-11-17 172842.png" width="700" height="300">
 
 - Pinging to the same VM(Server[VM1] -> Server[VM1])<br>
 `ansible vm01-main -m ping`<br>
 `ansible 10.0.0.4 -m ping`
+<img src = "Screenshot 2024-11-17 173838.png" width="700" height="300">
