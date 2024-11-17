@@ -1,4 +1,6 @@
 # Ansible
+<b> Ansible is a Configuration Management Tool</b>
+
 ## Installation of Ansible
 - `sudo dnf update -y `
 - `sudo dnf install epel-release -y`
@@ -60,3 +62,5 @@
 `ansible vm01-main -m ping`<br>
 `ansible 10.0.0.4 -m ping`
 <img src = "Screenshot 2024-11-17 173838.png" width="700" height="300">
+
+## Ansible Playbook
