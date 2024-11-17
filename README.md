@@ -18,7 +18,7 @@
 
 - To view the content of authorized keys<br>
 `cat ~/.ssh/authorized_keys`
-<img src = "Screenshot 2024-11-17 183925.png" width="700" height="300">
+<img src = "Screenshot 2024-11-17 183925.png" width="700" height="100">
 
 - To view the content of private key<br>
 `cat ~/.ssh/id_rsa`
