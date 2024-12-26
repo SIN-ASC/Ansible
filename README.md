@@ -8,7 +8,7 @@
 - `ansible --version`
 
 ## Connection between Server(VM1) and Client(VM2)
-<b>VM1- Username and Password<br> VM2- SSH Key</b>
+<b>VM1- Username and Password<br> VM2- SSH Key<br></b>
 <b>The Below commands to be executed in Server(VM1)</b>
 - Here with command it will generate a public key<br>
 `ssh-keygen -t rsa -b 2048`
