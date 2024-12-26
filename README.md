@@ -51,9 +51,11 @@
 
 ## Connection between Server(VM1) and Client(VM2) Both SSH
 <b>VM1 & VM2 - SSH<br>
-- In VM1<br></b>
+In VM1<br></b>
 - `sudo chmod 600 .ssh/id_rsa`<br>
+<img src = >
 - `ls -l .ssh/`<br>
+<img src = >
 - `ansible client -m command -a "sudo dnf install git -y"`<br>
 
 ## Ping
