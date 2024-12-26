@@ -7,7 +7,7 @@
 - `sudo dnf install ansible -y`
 - `ansible --version`
 
-## Connection between Server(VM1) and Client(VM2)
+## Connection between Server(VM1) and Client(VM2) Username-SSH
 <b>VM1- Username and Password<br> VM2- SSH Key<br></b>
 <b>The Below commands to be executed in Server(VM1)</b>
 - Here with command it will generate a public key<br>
@@ -48,6 +48,13 @@
 - Then see the authorized_keys again using cat command<br>
 `cat ~/.ssh/authorized_keys`
 <img src = "Screenshot 2024-11-17 181722.png" width="700" height="300">
+
+## Connection between Server(VM1) and Client(VM2) Both SSH
+<b>VM1 & VM2 - SSH<br>
+In VM1<br></b>
+`sudo chmod 600 .ssh/id_rsa`<br>
+`ls -l .ssh/`<br>
+`ansible client -m command -a "sudo dnf install git -y"`<br>
 
 ## Ping
 <b>Ping is being done to see if the connection between 2 machines is being successfully established or not.</b>
