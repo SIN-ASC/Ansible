@@ -53,11 +53,11 @@
 <b>VM1 & VM2 - SSH<br>
 In VM1<br></b>
 - `sudo chmod 600 .ssh/id_rsa`<br>
-<img src = "Screenshot(759).png" width="700" height="300">
+<img src = "Screenshot (759).png" width="700" height="300">
 - `ls -l .ssh/`<br>
-<img src = >
+<img src = "Screenshot (760).png" width="700" height="300">
 - `ansible client -m command -a "sudo dnf install git -y"`<br>
-<img src = >
+<img src = "Screenshot (762).png" width="700" height="300">
 
 ## Ping
 <b>Ping is being done to see if the connection between 2 machines is being successfully established or not.</b>
