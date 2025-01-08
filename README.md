@@ -54,6 +54,7 @@
 In VM1<br></b>
 - `sudo chmod 600 .ssh/id_rsa`<br>
 - `ls -l .ssh/`<br>
+
 <img src = "Screenshot (759).png" width="700" height="300"><br>
 <img src = "Screenshot (760).png" width="700" height="300"><br>
 - `ansible client -m command -a "sudo dnf install git -y"`<br>
