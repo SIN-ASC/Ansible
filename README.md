@@ -76,6 +76,10 @@ In VM1<br></b>
 ### Ping
 <img src = "Screenshot (760).png" width="700" height="300"><br>
 
+## Connection between Server(VM1) and Client(VM2) Both Username and Password
+
+
+
 ## AD-HOC Commands
 - `ansible client -m command -a "sleep 120"`<br>
 
@@ -83,8 +87,6 @@ In VM1<br></b>
 - `ansible client -m command -a "sudo dnf install git -y"`<br>
 
 <img src = "Screenshot (763).png" width="700" height="300">
-
-
 
 ## Ansible Playbook
 <b>installations.yaml</b><br>
