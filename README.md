@@ -76,6 +76,7 @@ In VM1<br></b>
 ### Ping
 <img src = "Screenshot (760).png" width="700" height="300"><br>
 
+## AD-HOC Commands
 - `ansible client -m command -a "sleep 120"`<br>
 
 <img src = "Screenshot (762).png" width="700" height="300"><br>
