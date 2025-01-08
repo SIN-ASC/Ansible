@@ -50,22 +50,7 @@
 `cat ~/.ssh/authorized_keys`
 <img src = "Screenshot 2024-11-17 181722.png" width="700" height="300">
 
-## Connection between Server(VM1) and Client(VM2) Both SSH
-<b>VM1 & VM2 - SSH<br>
-In VM1<br></b>
-- `sudo chmod 600 .ssh/id_rsa`<br>
-- `ls -l .ssh/`<br>
-
-<img src = "Screenshot (759).png" width="700" height="300"><br>
-<img src = "Screenshot (760).png" width="700" height="300"><br>
-- `ansible client -m command -a "sleep 120"`<br>
-
-<img src = "Screenshot (762).png" width="700" height="300"><br>
-- `ansible client -m command -a "sudo dnf install git -y"`<br>
-
-<img src = "Screenshot (763).png" width="700" height="300">
-
-## Ping
+### Ping
 <b>Ping is being done to see if the connection between 2 machines is being successfully established or not.</b>
 
 - You can use the 1st cmnd if you've provided the name along with the ip in inventory file, if you've only added the ip address then use the 2nd command
@@ -79,5 +64,25 @@ In VM1<br></b>
 `ansible vm01-main -m ping`<br>
 `ansible 10.0.0.4 -m ping`
 <img src = "Screenshot 2024-11-17 173838.png" width="700" height="300">
+
+## Connection between Server(VM1) and Client(VM2) Both SSH
+<b>VM1 & VM2 - SSH<br>
+In VM1<br></b>
+- `sudo chmod 600 .ssh/id_rsa`<br>
+- `ls -l .ssh/`<br>
+
+<img src = "Screenshot (759).png" width="700" height="300"><br>
+
+### Ping
+<img src = "Screenshot (760).png" width="700" height="300"><br>
+
+- `ansible client -m command -a "sleep 120"`<br>
+
+<img src = "Screenshot (762).png" width="700" height="300"><br>
+- `ansible client -m command -a "sudo dnf install git -y"`<br>
+
+<img src = "Screenshot (763).png" width="700" height="300">
+
+
 
 ## Ansible Playbook
