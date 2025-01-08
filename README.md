@@ -32,7 +32,7 @@
 - Here with the help of this command you can add ip addresses of VM1 & VM2 to the inventory file(hosts)<br>
 `sudo vi /etc/ansible/hosts`
 
-- <b>Inventory File</b>
+<b>Inventory File</b>
 <img src = "Screenshot 2024-11-17 170421.png" width="400" height="200">
 
 <b>The below commands to be executed in Client(VM2)</b>
@@ -57,10 +57,10 @@ In VM1<br></b>
 
 <img src = "Screenshot (759).png" width="700" height="300"><br>
 <img src = "Screenshot (760).png" width="700" height="300"><br>
-- `ansible client -m command -a "sudo dnf install git -y"`<br>
+- `ansible client -m command -a "sleep 120"`<br>
 
 <img src = "Screenshot (762).png" width="700" height="300"><br>
-- `ansible client -m command -a "sleep 120"`<br>
+- `ansible client -m command -a "sudo dnf install git -y"`<br>
 
 <img src = "Screenshot (763).png" width="700" height="300">
 
