@@ -78,6 +78,15 @@ In VM1<br></b>
 
 ## Connection between Server(VM1) and Client(VM2) Both Username and Password
 
+<b> Do the following things on Server(VM1)</b><br>
+- `ssh-keygen -t rsa -b 2048`<br>
+- `cat .ssh/id_rsa.pub`<br>
+- `cat .ssh/id_rsa.pub >> .ssh/authorized_keys`<br>
+Add the ip addresses in the inventory file<br>
+- `sudo vi /etc/ansible/hosts`<br>
+
+<b> Do the following things on Client(VM2)</b><br>
+- Add the public key from VM1(Server) to VM2(Client) authorized keys
 
 
 ## AD-HOC Commands
